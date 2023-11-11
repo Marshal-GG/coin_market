@@ -1,0 +1,36 @@
+name: coin_market
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.2 <4.0.0"
+
+dependencies:
+  equatable:
+  flutter_bloc:
+  bloc:
+  provider:
+  gap:
+  flutter_screenutil:
+  auto_size_text:
+  flutter_svg:
+  # flutter-floating-bottom-bar:
+  dot_navigation_bar:
+  intl:
+
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
